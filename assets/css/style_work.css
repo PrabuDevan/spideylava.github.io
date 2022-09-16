@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Electrolize&family=Monda&family=Montserrat:wght@100&family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+@import url('http://fonts.cdnfonts.com/css/milky-walky');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    color: #ededed;
+    text-decoration: none;
+    
+}
+
+
+
+.navi_header{
+  position: fixed;
+  width: 100%;
+  padding-left: 180px;
+  padding-right: 180px;
+  /* background-color: #571f0fa2; */
+  
+}
+
+.navi_border_lines{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  width: 100%;
+  border-color: black black rgba(255, 255, 255, 0.5);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+
+.nav__links {
+  
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+    
+
+}
+.nav__center {
+  font-family: 'Recoleta', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.nav__links li a {
+    transition: all 0.3s ease;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+
+}
+
+.bg_coverlines {
+  background: url("../Images/vector_packman.svg") top right no-repeat;
+  background-size: cover;
+  z-index: -1;
+  
+}
+
+
+/* Section */
+
+
+/* Section Work */
+#work {
+  /* height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex; */
+
+  width: 100vw;
+  /* margin: auto; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* text-align: center; */
+  /* vertical-align: middle; */
+
+  /* background-image: url(../Images/wpave.jpg); */
+    /* height: 100vh; */
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.work_frame{
+  /* width: 100vw; */
+  /* height: 100vh; */
+align-items: center;
+justify-content: center;
+display: flex;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.work_cont_frame{
+  margin-top: 300px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.pwork_cont_frame{
+  margin-top: 100px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.work_cont_one {
+  font-family: 'Milky Walky', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: #ededed;
+  text-decoration: none;
+
+}
+
+.gallery_frames{
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery {
+  width: 40%;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-template-rows: repeat(8, 5vw); */
+  grid-gap: 15px;
+}
+.gallerysa {
+  width: 40%;
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-columns: auto auto;
+  /* grid-template-rows: repeat(8, 5vw); */
+  grid-gap: 15px;
+  margin-top: 15px;
+}
+
+.align_horizontalsa {
+  display: flex;
+  flex-direction: row;
+
+
+}
+.align_horizontalsatitle{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.work_titles {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 25px  ;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Section Contact */
+#contact {
+  width: 100vw;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #35120A;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+	text-align: center;
+
+}
+
+.contact_frame{
+  width: 100%;
+  margin: auto;
+  /* padding-top: 2%; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.contact_cont_one {
+  font-family: 'Milky Walky', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: #ededed;
+  text-decoration: none;
+
+}
+
+
+.contact_packmans_vector{
+  width: 10%;
+  height: 5%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.title_contact {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  margin: 25px  ;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+.contact_intro-content .contact_intro-position {
+	font-family: "Montserrat", serif;
+	font-size: 1.7rem;
+	line-height: 2.4rem;
+  font-size: 15px;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.contact_intro-content .contact_intro-position span:first-child::after {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 8px 0 14px;
+	color: rgba(255, 255, 255, 0.993);
+}
+
+.contact_social{
+  width: 10%;
+  margin: auto;
+  margin-top: 25px;
+  /* padding-top: 2%; */
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+.contact_lines{
+  width: 10%;
+  margin: auto;
+  margin-top: 80px;
+  /* padding-top: 2%; */
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+
+/*  */
+
+body {
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 100vh;
+  background-color: #040404;
+  
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  background: url("../Images/web_bg_img.png") top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: -1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1366px){
+  
+  
+.work_cont_frame{
+  margin-top: 200px;
+}
+
+.work_frame{
+  margin-top: 40px;
+}
+
+}
