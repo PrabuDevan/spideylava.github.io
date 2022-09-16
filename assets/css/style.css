@@ -5,6 +5,13 @@
 @import url('http://fonts.cdnfonts.com/css/milky-walky');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&display=swap');
 
+@font-face {
+  font-family: 'Milky Walky Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Milky Walky Regular'), url('MilkyWalky-Regular.woff') format('woff');
+  }
+  
 * {
     box-sizing: border-box;
     margin: 0;
