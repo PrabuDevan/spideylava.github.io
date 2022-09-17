@@ -163,9 +163,10 @@ li, a {
 
 }
 
-/* .cont_frame{  
-  width: 100vh;
-} */
+.cont_frame{  
+  /* width: 100vh; */
+  margin-top: 20px;
+}
 
 .cont_one {
   font-family: 'Milky Walky Regular', sans-serif;
@@ -488,13 +489,18 @@ body::before {
  
 .cont_one {
  
-  font-size: 80px;
+  font-size: 70px;
 
+}
+
+.cont_frame{  
+  /* width: 100vh; */
+  margin-top: 20px;
 }
 
 .cont_two {
  
-  font-size: 80px;
+  font-size: 70px;
   margin-left: 180px;
   
 
