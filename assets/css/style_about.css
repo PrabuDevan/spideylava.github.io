@@ -130,7 +130,7 @@ li, a {
 .intro-content {
 	/* display: table-cell; */
 	/* vertical-align: middle; */
-  margin-left: 850px;
+  margin-left: 840px;
 
 }
 
@@ -195,7 +195,53 @@ li, a {
 }
 
 
+.fill {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: "Raleway", sans-serif;
+  font-style: oblique;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 50px;
+}
 
+.button_fill {
+  background-color: #CF5A15;
+  border: 2px solid #CF5A15;
+} /* Green */
+
+.opaque {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  margin: 4px 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button_opaque {
+  background-color: rgba(255, 255, 255, 0); 
+  color: #FF9255; 
+  border: 2px solid #FF9255;
+}
+
+.button_opaque:hover {
+  background-color: #FF9255;
+  color: white;
+}
 
 
 /* Section Contact */
@@ -337,7 +383,8 @@ body::before {
 
   .align_pic {
     left: 120px;
-    height: 600px;
+    height: 6000px;
+    
   }
 
  
