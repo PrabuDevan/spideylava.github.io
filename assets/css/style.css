@@ -133,7 +133,7 @@ li, a {
 
 .intro-content {
   margin-left: 260px;
-  margin-top: 180px;
+  margin-top: 160px;
 
 }
 
@@ -181,7 +181,7 @@ li, a {
   font-family: 'Milky Walky Regular', sans-serif;
   font-weight: 400;
   font-size: 118px;
-  margin-left: 250px;
+  margin-left: 230px;
   color: #ededed;
   text-decoration: none;
 
@@ -474,7 +474,7 @@ body::before {
   
   .intro-content {
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 130px;
   
   }
   
@@ -501,7 +501,7 @@ body::before {
 .cont_two {
  
   font-size: 70px;
-  margin-left: 180px;
+  margin-left: 160px;
   
 
 }
