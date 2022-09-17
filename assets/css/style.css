@@ -32,6 +32,7 @@ li, a {
   padding-left: 180px;
   padding-right: 180px;
   /* background-color: #571f0fa2; */
+  z-index: 999;
   
 }
 
@@ -247,7 +248,7 @@ vertical-align: middle;
 }
 
 .work_cont_frame{
-  margin-top: 100px;
+  margin-top: 80px;
 
   align-items: center;
   justify-content: center;
@@ -272,6 +273,8 @@ vertical-align: middle;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+/* display: flex; */
 }
 .gallery_frames img{
   object-fit: cover;
@@ -306,8 +309,9 @@ vertical-align: middle;
 .align_horizontalsa {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 100px;
+  margin-left: 25px;
 
 
 }
@@ -315,9 +319,9 @@ vertical-align: middle;
 
 .work_title {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
-  margin: 25px  ;
+  margin-left: 25px;
   color: #FFFFFF;
   text-decoration: none;
 }

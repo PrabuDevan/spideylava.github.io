@@ -5,6 +5,8 @@
 @import url('http://fonts.cdnfonts.com/css/milky-walky');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +27,7 @@ li, a {
   padding-left: 180px;
   padding-right: 180px;
   /* background-color: #571f0fa2; */
-  
+  z-index: 999;
 }
 
 .navi_border_lines{
@@ -200,7 +202,7 @@ li, a {
   color: white;
   padding: 15px 32px;
   font-family: "Raleway", sans-serif;
-  font-style: oblique;
+  /* font-style: oblique; */
   font-weight: 100;
   text-align: center;
   text-decoration: none;
