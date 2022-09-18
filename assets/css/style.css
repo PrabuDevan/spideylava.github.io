@@ -298,7 +298,7 @@ vertical-align: middle;
   grid-template-columns: auto auto;
   /* grid-template-rows: repeat(8, 5vw); */
   grid-gap: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .gallerysa {
   width: 40%;
@@ -322,7 +322,7 @@ vertical-align: middle;
 .align_horizontalsa {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 100px;
   margin-left: 25px;
 
