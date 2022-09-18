@@ -7,6 +7,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+
+@font-face {
+  font-family: 'Milky Walky Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Milky Walky Regular'), url('MilkyWalky-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Recoleta Regular DEMO';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Recoleta Regular DEMO'), url('Recoleta-RegularDEMO.woff') format('woff');
+    }
+  
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -55,7 +71,7 @@ li, a {
 
 }
 .nav__center {
-  font-family: 'Recoleta', sans-serif;
+  font-family: 'Recoleta Regular DEMO', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -173,7 +189,7 @@ li, a {
 
 
 .cont_one {
-  font-family: 'Milky Walky', sans-serif;
+  font-family: 'Milky Walky Regular', sans-serif;
   font-weight: 400;
   font-size: 128px;
   
@@ -183,7 +199,7 @@ li, a {
 }
 
 .cont_two {
-  font-family: 'Milky Walky', sans-serif;
+  font-family: 'Milky Walky Regular', sans-serif;
   font-weight: 400;
   font-size: 128px;
   /* padding-left: 25px; */
@@ -398,7 +414,7 @@ body::before {
   }
 
   .cont_one {
-    font-family: 'Milky Walky', sans-serif;
+    font-family: 'Milky Walky Regular', sans-serif;
     font-weight: 400;
     font-size: 100px;
     
@@ -408,7 +424,7 @@ body::before {
   }
   
   .cont_two {
-    font-family: 'Milky Walky', sans-serif;
+    font-family: 'Milky Walky Regular', sans-serif;
     font-weight: 400;
     font-size: 100px;
     /* padding-left: 25px; */
