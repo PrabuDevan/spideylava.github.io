@@ -34,9 +34,10 @@ li, a {
   justify-content: space-between;
   padding-bottom: 0px;
   width: 100%;
-  border-color: black black rgba(255, 255, 255, 0.5);
+  border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+  /* border-color:  rgba(255, 255, 255, 0.5);
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 1px; */
 }
 
 
@@ -486,12 +487,13 @@ coincides with container's bottom margin*/
 .work_subtitle {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   color: #FFFFFF;
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
   text-align: start;
+
   
 }
 
@@ -523,6 +525,7 @@ coincides with container's bottom margin*/
   vertical-align: middle;
   align-items: center;
   justify-content: center;
+
 }
 .title_video_logo {
   /* background: url("../Images/shadow_svg.svg") top right no-repeat; */
@@ -543,41 +546,14 @@ coincides with container's bottom margin*/
 .title_video_logo a{
   height: 50px;
 }
+.title_logo_align {
+  width: 35px;
+  height: 35px;
+}
 .containervs:hover .title_video_logo{
   opacity: 1;   
 }
 .alignn:hover .title_video_logo{
-  opacity: 1;   
-}
-
-/*  */
-.containervsf {
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: center;
-}
-.title_video_logof {
-  /* background: url("../Images/shadow_svg.svg") top right no-repeat; */
-  position: absolute;   
-  top: 0;    
-  margin: 10px;
-  border-radius: 50px;
-  background-color: rgba(34, 34, 34, 0.692);
-  padding: 5px;
-  display: flex;
-  text-align: start;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;          
-   
-  transition: 0.6s;
-}
-.title_video_logof3 a{
-  height: 50px;
-}
-.containervs:hover .title_video_logo{
   opacity: 1;   
 }
 
@@ -671,6 +647,14 @@ coincides with container's bottom margin*/
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.dotwrap {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: "----"; 
+  border: 1px solid #000000;
 }
 
 

@@ -17,8 +17,13 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     
     document.getElementById("navbar").style.background = "#5F2314";
+    document.getElementById("nav_hover_lines").style.borderBottom = "unset";
+    // document.getElementById("navbar").style.borderBottom = "rgba(255, 255, 255, 0.5) solid 1px";
+    
+// 
   } else {
-   
+    document.getElementById("nav_hover_lines").style.borderBottom = "rgba(255, 255, 255, 0.5) solid 1px";
+    // document.getElementById("navbar").style.borderBottom = "unset";
     document.getElementById("navbar").style.background = "none";
   }
 }
