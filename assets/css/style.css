@@ -11,6 +11,13 @@
   font-weight: normal;
   src: local('Milky Walky Regular'), url('MilkyWalky-Regular.woff') format('woff');
   }
+
+  @font-face {
+    font-family: 'Recoleta Regular DEMO';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Recoleta Regular DEMO'), url('Recoleta-RegularDEMO.woff') format('woff');
+    }
   
 * {
     box-sizing: border-box;
@@ -61,7 +68,7 @@ li, a {
 
 }
 .nav__center {
-  font-family: 'Recoleta', sans-serif;
+  font-family: 'Recoleta Regular DEMO', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
