@@ -672,6 +672,35 @@ coincides with container's bottom margin*/
   border: 1px solid #000000;
 }
 
+.designby{
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  /* padding-top: 2%; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.designer_txt{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+}
+.designer_name{
+  font-family: 'Recoleta Regular DEMO', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+}
+
 
 @media screen and (max-width: 1366px){
   
