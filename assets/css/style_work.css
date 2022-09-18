@@ -84,7 +84,7 @@ li, a {
 .bg_coverlines {
   /* background: url("../Images/vector_packman.svg") top right no-repeat; */
   background: url("../Images/vectorbg.svg") top right no-repeat;
-  background-size: cover;
+  background-size: contain;
   z-index: -1;
   
 }
