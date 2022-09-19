@@ -405,7 +405,8 @@ body::before {
 
   .align_pic {
     left: 120px;
-    height: 6000px;
+    /* height: 6000px; */
+    height: 100%;
     
   }
 
