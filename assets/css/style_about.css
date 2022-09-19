@@ -408,10 +408,11 @@ body::before {
     height: 600px;
     /* object-fit: contain; */
     /* height: 100%; */
-    
   }
 
- 
+  .button_about{
+    margin-top: 50px;
+  }
 
   .intro-content {
     margin-left: 600px;
