@@ -361,7 +361,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   /* background-image: url('../../assets/images/png/mask-group-Ea3.png'); */
-  /* background-image: url('../../assets/images/png/avairSense_website_v2.png'); */
+  background-image: url('../../assets/images/png/avairSense_website_v2.png');
   flex-shrink: 0;
 }
 
@@ -978,7 +978,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid #ccc;
+  border: 20px solid #ccc;
   background-color: #fff;
   z-index: 9999;
   overflow: auto;
