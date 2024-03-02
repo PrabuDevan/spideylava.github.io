@@ -5,11 +5,11 @@ function openSwiggyPopup() {
     // Calculate the position for the popup window to be centered
     var screenWidth = window.screen.width;
     var screenHeight = window.screen.height;
-    
+
     // Set the desired width and height for the popup window
     var popupWidth = 1300;
     var popupHeight = 700;
-    
+
     // Calculate the position to center the popup window
     var leftPosition = (screenWidth - popupWidth) / 2;
     var topPosition = (screenHeight - popupHeight) / 2;
@@ -23,4 +23,15 @@ function openSwiggyPopup() {
     } else {
         alert("Popup window blocked! Please allow popups for this site.");
     }
+}
+
+function showPopup() {
+    document.getElementById("popup").style.display = "block";
+    // document.getElementById("overlay").style.display = "block";
+}
+
+// Function to hide the popup
+function hidePopup() {
+    document.getElementById("popup").style.display = "none";
+    // document.getElementById("overlay").style.display = "none";
 }
