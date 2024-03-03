@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles/css/ui_designs.css" />
   <script src="assets/js/uiDesign.js"></script>
   <script src="assets/js/socialmediacontact.js"></script>
+  <script src="assets/js/autoslider.js"></script>
 </head>
 
 <body>
@@ -84,21 +85,9 @@
           <p class="home-page-full-version-S2T">Home Page Full Version</p>
         </div>
         <div class="frame-810-Zcs">
-          <div class="frame-844-J4f">
-            <div class="frame-64-SwZ">
-              <div class="group-19-zCP">
-              </div>
-              <p class="avairsense-website-version-1-7H1">AvairSense Website Version-1</p>
-            </div>
-            <div class="frame-64-R2o">
-              <div class="group-19-mMZ">
-                <div class="mask-group-7wD">
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div class="frame-845-q6X">
-            <div class="frame-64-bLb" >
+            <div class="frame-64-bLb">
               <!-- <div class="group-19-vNs" onclick=openSitePopup()>
                 <iframe class="mask-group-k2K" src="https://www.avairsense.com/" title="Isometric_Title"
                   frameborder="0"
@@ -113,11 +102,12 @@
                     height="310">
                 </a>
 
-                
+
                 <div class="title_img">
-                  <div>Scarry Design</div>
-                  <img class="align_cntr" src="assets/images/png/max.png" alt="Avatar" width="50" height="50" onclick="openSitePopup()">
-                  
+                  <!-- <div>Scarry Design</div> -->
+                  <img class="align_cntr" src="assets/images/png/max.png" alt="Avatar" width="50" height="50"
+                    onclick="openSitePopup()">
+
                 </div>
 
 
@@ -137,6 +127,68 @@
               </div>
             </div>
           </div>
+
+          <div class="frame-844-J4f">
+            <div class="frame-64-SwZ">
+              <div class="body_slider">
+                <div class="slider">
+                  <div class="slides">
+                    <!-- Radio Button Start  -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!-- Radio Button Close  -->
+  
+                    <!-- Slide Image Start -->
+                    <div class="slide first">
+                      <img src="assets/images/png/avairSense_website_v1.png" alt="">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/png/auto-group-c8sj.png" alt="">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/png/avairSense_website_v1.png" alt="">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/png/auto-group-c8sj.png" alt="">
+                    </div>
+                    <!-- Slide Image Close -->
+  
+                    <!-- Automatic Navigation Start -->
+                    <div class="navigation-auto">
+                      <div class="auto-btn-1"></div>
+                      <div class="auto-btn-2"></div>
+                      <div class="auto-btn-3"></div>
+                      <div class="auto-btn-4"></div>
+                    </div>
+                    <!-- Automatic Navigation Close -->
+                  </div>
+  
+                  <!-- Mannual Navigation Start -->
+                  <div class="navigation-mannual">
+                    <label for="radio1" class="mannual-btn"></label>
+                    <label for="radio2" class="mannual-btn"></label>
+                    <label for="radio3" class="mannual-btn"></label>
+                    <label for="radio4" class="mannual-btn"></label>
+                  </div>
+                  <!-- Mannual Navigation Close -->
+                </div>
+              </div>
+              
+              <!-- <div class="group-19-zCP">
+              </div>
+              <p class="avairsense-website-version-1-7H1">AvairSense Website Version-1</p> -->
+            </div>
+            <div class="frame-64-R2o">
+              <div class="group-19-mMZ">
+                <div class="mask-group-7wD">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
@@ -272,4 +324,37 @@
 
     </div>
   </div>
+
+  <script>
+
+        var counter = 1;
+        document.getElementById('radio' + counter).checked = true;
+        if (document.getElementById('radio' + 1).checked) {
+            updateRadio(); // If not checked, manually trigger the updateRadio function
+        }else{
+            document.getElementById('radio' + counter).checked = true;
+            updateRadio(); // If not checked, manually trigger the updateRadio function
+
+        }
+
+        setInterval(updateRadio, 2500);
+
+        function updateRadio() {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+
+            if (counter > 4) {
+                counter = 1;
+            }
+        }
+        // setInterval(function () {
+        //     document.getElementById('radio' + counter).checked = true;
+        //     counter++;
+
+        //     if (counter > 4) {
+        //         counter = 1
+        //     }
+
+        // }, 2000);
+    </script>
 </body>
