@@ -485,11 +485,21 @@ a {
 }
 
 .works-fao .frame-97-vf9 .frame-64-7Vy .mask-group-pvB .auto-group-mgqf-auM {
+  /* width: 94.6rem;
+  height: 53.2rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  vertical-align: top; */
+
   width: 94.6rem;
   height: 53.2rem;
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: center; /* Center horizontally */
+  margin: 0 auto; /* Center horizontally */
   object-fit: contain;
   vertical-align: top;
 }
@@ -497,11 +507,21 @@ a {
 .frame_left {
   width: 31rem;
   height: 53.2rem;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.frame_left video {
+  /* Optionally, you can set a max-width to prevent the videos from exceeding the container width */
+  max-width: 100%;
 }
 
 .frame_left_up {
   width: 24.6rem;
   height: 23.2rem;
+
 }
 
 .frame_left_down {
@@ -571,6 +591,7 @@ a {
   position: relative;
   object-fit: contain;
   vertical-align: top;
+  border-radius: 20px;
   flex-shrink: 0;
 }
 
@@ -628,6 +649,7 @@ a {
   height: 19.2rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -675,6 +697,7 @@ a {
   height: 19.2rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -723,7 +746,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-111-cVV.png');
+  background-image: url('../../assets/images/png/rectangle-111-wVZ.png');
   flex-shrink: 0;
 }
 
@@ -732,6 +755,7 @@ a {
   height: 61.256rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -772,7 +796,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-111-aLP.png');
+  background-image: url('../../assets/images/png/rectangle-111-wVZ.png');
   flex-shrink: 0;
 }
 
@@ -781,6 +805,7 @@ a {
   height: 61.2557rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -830,7 +855,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-111-gUo.png');
+  background-image: url('../../assets/images/png/rectangle-111.png');
   flex-shrink: 0;
 }
 
@@ -839,6 +864,7 @@ a {
   height: 14.4rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -872,21 +898,37 @@ a {
 }
 
 .works-fao .frame-97-vf9 .frame-97-zqu .frame-21-s2X .frame-89-Ds5 .mask-group-BJ7 {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem;
   width: 100%;
+  height: 14.4rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-111-wcb.png');
+  background-image: url('../../assets/images/png/rectangle-111.png');
+  flex-shrink: 0; */
+
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 14.4rem;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../assets/images/png/rectangle-111.png');
   flex-shrink: 0;
 }
 
 .works-fao .frame-97-vf9 .frame-97-zqu .frame-21-s2X .frame-89-Ds5 .mask-group-BJ7 .auto-group-1ev3-9Ew {
-  width: 34.5rem;
+  /* width: 34.5rem;
   height: 14.4rem;
   position: relative;
   object-fit: contain;
-  vertical-align: top;
+  vertical-align: top; */
+  width: 24.5rem;
+  height: 10.4rem;
+  object-fit: contain;
 }
 
 .works-fao .frame-97-vf9 .frame-97-zqu .frame-21-s2X .frame-89-Ds5 .button-loader-58b {
@@ -934,7 +976,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-108-PMy.png');
+  background-image: url('../../assets/images/png/rectangle-108-Cab.png');
   flex-shrink: 0;
 }
 
@@ -943,6 +985,7 @@ a {
   height: 24rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -981,7 +1024,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-108-ooD.png');
+  background-image: url('../../assets/images/png/rectangle-108-Cab.png');
   flex-shrink: 0;
 }
 
@@ -990,6 +1033,7 @@ a {
   height: 24rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -1028,7 +1072,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../assets/images/png/rectangle-108.png');
+  background-image: url('../../assets/images/png/rectangle-108-Cab.png');
   flex-shrink: 0;
 }
 
@@ -1037,6 +1081,7 @@ a {
   height: 24rem;
   position: relative;
   object-fit: contain;
+  border-radius: 20px;
   vertical-align: top;
 }
 
@@ -1113,6 +1158,7 @@ a {
   position: relative;
   object-fit: contain;
   vertical-align: top;
+  border-radius: 20px;
   flex-shrink: 0;
 }
 
@@ -1152,6 +1198,7 @@ a {
   position: relative;
   object-fit: contain;
   vertical-align: top;
+  border-radius: 20px;
   flex-shrink: 0;
 }
 
