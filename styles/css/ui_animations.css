@@ -27,10 +27,10 @@ body {
 
 li,
 a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #EDF0F1;
-    text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
 }
 
 .works-E4f {
@@ -171,7 +171,7 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .works-fao .frame-27-aBy .rectangle-93-HcB {
@@ -371,11 +371,13 @@ a {
   background-position: center;
   border-radius: 2rem;
   flex-shrink: 0;
-  overflow: hidden; /* Ensures the image doesn't overflow */
+  overflow: hidden;
+  /* Ensures the image doesn't overflow */
 }
 
 .mask-group-8s1:hover .auto-group-qjyx-tbH {
-  transform: scale(1.05); /* Slightly zoom in on hover */
+  transform: scale(1.05);
+  /* Slightly zoom in on hover */
 }
 
 .mask-group-8s1 .auto-group-qjyx-tbH {
@@ -384,7 +386,8 @@ a {
   position: relative;
   object-fit: contain;
   vertical-align: top;
-  transition: transform 0.3s ease; /* Add smooth transition */
+  transition: transform 0.3s ease;
+  /* Add smooth transition */
 }
 
 
@@ -485,8 +488,50 @@ a {
   width: 94.6rem;
   height: 53.2rem;
   position: relative;
+  display: flex;
+  flex-direction: row;
   object-fit: contain;
   vertical-align: top;
+}
+
+.frame_left {
+  width: 31rem;
+  height: 53.2rem;
+}
+
+.frame_left_up {
+  width: 24.6rem;
+  height: 23.2rem;
+}
+
+.frame_left_down {
+  width: 24.6rem;
+  height: 23.2rem;
+}
+
+.frame_center {
+  width: 31rem;
+  height: 53.2rem;
+}
+
+.frame_center_video {
+  width: 24.6rem;
+  height: 53.2rem;
+}
+
+.frame_right {
+  width: 31rem;
+  height: 53.2rem;
+}
+
+.frame_right_up {
+  width: 24.6rem;
+  height: 23.2rem;
+}
+
+.frame_right_down {
+  width: 24.6rem;
+  height: 23.2rem;
 }
 
 .works-fao .frame-97-vf9 .frame-64-7Vy .face-recognition-iEs {
@@ -1313,4 +1358,3 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-
