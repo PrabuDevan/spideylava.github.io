@@ -373,13 +373,11 @@ a {
   border-radius: 2rem;
   flex-shrink: 0;
   overflow: hidden;
-  /* Ensures the image doesn't overflow */
 }
 
-.mask-group-8s1:hover .auto-group-qjyx-tbH {
+/* .mask-group-8s1:hover .auto-group-qjyx-tbH {
   transform: scale(1.05);
-  /* Slightly zoom in on hover */
-}
+} */
 
 .mask-group-8s1 .auto-group-qjyx-tbH {
   width: 34.545rem;
