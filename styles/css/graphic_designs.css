@@ -2440,7 +2440,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('../assets/rectangle-111-LNb.png');
+    /* background-image: url('../assets/rectangle-111-LNb.png'); */
 }
 
 .auto-group-eyb1-Ljq {
@@ -2467,6 +2467,7 @@ img {
     grid-gap: 35px;
 }
 
+
 .containervs {
     position: relative;
     text-align: center;
@@ -2474,13 +2475,13 @@ img {
     align-items: center;
     justify-content: center;
 
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     padding: 2.4rem 2.4rem 2.4rem 2.4rem;
     width: 28.8rem;
     height: 100%;
     border: solid 0.1rem #212121;
     border-radius: 2rem;
-    flex-shrink: 0;
+    flex-shrink: 0; */
 
 }
 
@@ -2533,3 +2534,4 @@ img {
 
 
 }
+
