@@ -215,7 +215,7 @@ a {
 
 
 .frame-106-dqh {
-    margin-bottom: 8.1rem;
+    /* margin-bottom: 8.1rem; */
     width: 112.9rem;
     display: flex;
     flex-direction: column;
@@ -500,6 +500,7 @@ a {
 .frame-826-nT9 {
     /* width: 112.9rem; */
     /* height: 270.856rem; */
+    margin-top: 11rem;
     left: 0;
     top: 79.5rem;
 }
@@ -1905,7 +1906,7 @@ a {
 
 /*  */
 .frame-833-i1D {
-    margin-top: 22rem;
+    margin-top: 11rem;
     width: 101.7rem;
     height: 43.7rem;
     /*   */
