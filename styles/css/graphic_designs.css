@@ -864,7 +864,9 @@ a {
     position: relative;
     object-fit: contain;
     vertical-align: top;
+    border-radius: 20px;
     flex-shrink: 0;
+    background-image: url('../../assets/images/png/rectangle-100.png');
 }
 
 .indoor-placement-frw {
@@ -904,6 +906,8 @@ a {
     object-fit: contain;
     vertical-align: top;
     flex-shrink: 0;
+    border-radius: 20px;
+    background-image: url('../../assets/images/png/rectangle-100.png');
 }
 
 .outdoor-placement-F4T {
