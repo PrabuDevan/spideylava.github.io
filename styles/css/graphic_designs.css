@@ -866,7 +866,7 @@ a {
     vertical-align: top;
     border-radius: 20px;
     flex-shrink: 0;
-    background-image: url('../../assets/images/png/rectangle-100.png');
+    /* background-image: url('../../assets/images/png/rectangle-100.png'); */
 }
 
 .indoor-placement-frw {
@@ -907,7 +907,7 @@ a {
     vertical-align: top;
     flex-shrink: 0;
     border-radius: 20px;
-    background-image: url('../../assets/images/png/rectangle-100.png');
+    /* background-image: url('../../assets/images/png/rectangle-100.png'); */
 }
 
 .outdoor-placement-F4T {
@@ -2444,13 +2444,11 @@ img {
     vertical-align: top;
 }
 
-.frame-86-VUK {
-    /* margin: 0.0002rem 0; */
+/* .frame-86-VUK {
     margin-left: 7.3rem;
     box-sizing: border-box;
     padding: 2.4rem 2.4rem 2.4rem 2.4rem;
     width: 39.3453rem;
-    /* height: calc(100% - 0.0003rem); */
     border: solid 0.1rem #212121;
     border-radius: 2rem;
     flex-shrink: 0;
@@ -2462,16 +2460,35 @@ img {
 }
 
 .mask-group-Bc3 {
-    /* margin-bottom: 5.4rem; */
     width: 100%;
-    /* height: 61.2557rem; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-image: url('../assets/rectangle-111-LNb.png'); */
+    background-image: url('../../assets/images/png/rectangle-111-wVZ.png');
+} */
+.frame-86-VUK {
+    margin-left: 7.3rem;
+    box-sizing: border-box;
+    padding: 2.4rem 2.4rem 2.4rem 2.4rem;
+    width: 39.3453rem;
+    border: solid 0.1rem #212121;
+    border-radius: 2rem;
+    flex-shrink: 0;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+.frame-90-1hZ {
+    width: 100%;
+    height: 100%;
+}
+.mask-group-Bc3 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url('../../assets/images/png/rectangle-111-wVZ.png');
 }
-
 .auto-group-eyb1-Ljq {
     width: 34.5453rem;
     height: 61.2557rem;
@@ -2497,21 +2514,21 @@ img {
 }
 
 
-.containervs {
+/* .containervs {
     position: relative;
     text-align: center;
     vertical-align: middle;
     align-items: center;
     justify-content: center;
 
-    /* box-sizing: border-box;
-    padding: 2.4rem 2.4rem 2.4rem 2.4rem;
-    width: 28.8rem;
-    height: 100%;
-    border: solid 0.1rem #212121;
-    border-radius: 2rem;
-    flex-shrink: 0; */
+} */
 
+.containervs {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
 }
 
 .containervs:hover .title_video_logo {
