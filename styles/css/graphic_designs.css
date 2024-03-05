@@ -29,7 +29,8 @@ body {
 li,
 a {
     font-weight: 500;
-    font-size: 16px;
+    /* font-size: 16px; */
+  font-size: 12px;
     color: #EDF0F1;
     text-decoration: none;
 }
@@ -159,7 +160,8 @@ a {
 .side_vertical_tab_group {
     position: fixed;
     right: -35px;
-    top: 16%;
+    /* top: 16%; */
+  top: 20%;
     background-color: #212121;
     padding: 1rem 2rem 1rem 1rem;
     border: solid 0.1rem #212121;
