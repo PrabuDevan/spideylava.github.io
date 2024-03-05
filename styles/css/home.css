@@ -554,7 +554,7 @@ a {
 }
 
 .frame-35-NgX {
-    margin: 0rem 37.125rem 13.9rem 37.125rem;
+    margin: 0rem 37.125rem 0rem 37.125rem;
     width: calc(100% - 74.25rem);
     align-items: center;
     display: flex;
@@ -698,7 +698,7 @@ a {
 }
 
 .frame-47-wS7 {
-    margin: 0rem 19.875rem 0rem 19.875rem;
+    margin: 13.9rem 19.875rem 0rem 19.875rem;
     /* width: calc(100% - 39.75rem); */
     display: flex;
     flex-direction: column;
