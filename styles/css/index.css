@@ -192,7 +192,7 @@ a {
 
 /* Style for when the item is hovered */
 .frame-20-S87 li:hover a {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 /* Style for when the item is active (clicked) */
@@ -203,8 +203,9 @@ a {
 
 .frame-20-S87 li a.active,
 .frame-20-S87 li a.active:hover {
-    color: #ffffff; /* Change text color */
-    
+    color: #ffffff;
+    /* Change text color */
+
     /* Add additional styling as needed */
 }
 
@@ -301,6 +302,7 @@ a {
     box-sizing: border-box;
     border-radius: 2rem;
 }
+
 .auto-group-tbio-8Md {
     width: 42.4rem;
     height: 48.4rem;
@@ -386,8 +388,36 @@ a {
     width: 100%;
     height: 27.3rem;
     background-color: #212121;
-    border-radius: 2rem;
+    border-radius: 20px;
     flex-shrink: 0;
+}
+
+.mask-group-a3R {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    /* Ensure that the image doesn't overflow the frame */
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    /* Add smooth transition */
+}
+
+.mask-group-a3R:hover .image-wrapper {
+    transform: scale(1.05);
+    /* Zoom in on hover */
+}
+
+.auto-group-snvv-XUT {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+    object-fit: contain;
 }
 
 .ui-animations-C23 {
@@ -576,7 +606,7 @@ a {
     flex-shrink: 0;
 }
 
- .frame-31-cas {
+.frame-31-cas {
     margin-bottom: 4rem;
     box-sizing: border-box;
     padding-bottom: 1.9rem;
@@ -610,7 +640,7 @@ a {
     flex-shrink: 0;
 }
 
- .frame-31-RYK {
+.frame-31-RYK {
     margin: 0 4.95rem;
     width: calc(100% - 9.9rem);
     align-items: center;
@@ -649,6 +679,7 @@ a {
     flex-direction: column;
     flex-shrink: 0;
 }
+
 .ads-product-video-post-etc-eZV {
     text-align: center;
     font-size: 1.5rem;
@@ -690,6 +721,7 @@ a {
     white-space: nowrap;
     flex-shrink: 0;
 }
+
 .random-works-bd9 {
     text-align: center;
     font-size: 4.8rem;
@@ -852,6 +884,7 @@ a {
     border-image-repeat: initial;
     flex-shrink: 0;
 }
+
 .kissflow-y9q {
     margin-right: 58.4rem;
     font-size: 2rem;
@@ -1121,7 +1154,8 @@ a {
     white-space: nowrap;
     flex-shrink: 0;
 }
- .frame-62-r4X {
+
+.frame-62-r4X {
     height: 100%;
     display: flex;
     align-items: center;
@@ -1183,6 +1217,7 @@ a {
     border-radius: 0.3rem;
     flex-shrink: 0;
 }
+
 .frame-57-BuR {
     margin-right: 29.5667rem;
     box-sizing: border-box;
