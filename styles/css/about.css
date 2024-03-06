@@ -139,12 +139,17 @@ a {
 }
 
 /* Style for when the item is active (clicked) */
+/* .frame-20-S87 li a.active,
+.frame-20-S87 li a.active:hover {
+    color: #ffffff; 
+} */
+
 .frame-20-S87 li a.active,
 .frame-20-S87 li a.active:hover {
     color: #ffffff; /* Change text color */
+    
     /* Add additional styling as needed */
 }
-
 .frame-25-sMq {
     margin-bottom: 7rem;
     /* width: 100%; */

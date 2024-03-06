@@ -1,21 +1,17 @@
-// $(document).ready(function() {
-//     $('.frame-20-S87 li a').click(function() {
-//         // Remove active class from all links
-//         $('.frame-20-S87 li a').removeClass('active');
-//         // Add active class to the clicked link
-//         $(this).addClass('active');
-//     });
-// });
-
-
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("worksLink").addEventListener("click", function() {
-        // Remove active class from all navbar links
-        var navbarLinks = document.querySelectorAll(".frame-20-S87 li a");
-        navbarLinks.forEach(function(link) {
-            link.classList.remove("active");
+    // Get all the links inside the navigation menu
+    var links = document.querySelectorAll(".frame-20-S87 li a");
+
+    // Add click event listeners to all the links
+    links.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            // Remove the "active" class from all links
+            links.forEach(function(link) {
+                link.classList.remove("active");
+            });
+
+            // Add the "active" class to the clicked link
+            this.classList.add("active");
         });
-        // Add active class to the clicked navbar link
-        this.classList.add("active");
     });
 });
