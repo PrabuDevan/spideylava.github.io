@@ -31,7 +31,7 @@ li,
 a {
     font-weight: 500;
     /* font-size: 16px; */
-  font-size: 12px;
+    font-size: 12px;
     color: #EDF0F1;
     text-decoration: none;
 }
@@ -44,13 +44,13 @@ a {
     background-color: #111111;
 }
 
-.works-E4f .auto-group-fhhr-FEf {
+.auto-group-fhhr-FEf {
     margin: 0rem 0.05rem 4rem 0rem;
     width: calc(100% - 0.05rem);
     /* height: 401.1rem; */
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD {
+.frame-63-VoD {
     box-sizing: border-box;
     padding: 4rem 14.525rem 0rem 14.525rem;
     width: 100%;
@@ -60,7 +60,7 @@ a {
     flex-direction: column;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP {
+.navi-yiP {
     margin: 0rem 21.825rem 7rem 21.825rem;
     /* width: calc(100% - 43.65rem); */
     height: 5.5rem;
@@ -71,7 +71,7 @@ a {
     z-index: 9999;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 {
+.frame-22-6Y7 {
     box-sizing: border-box;
     padding: 1.6rem 2rem 1.5rem 3rem;
     width: 100%;
@@ -84,7 +84,7 @@ a {
     border-radius: 2rem;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .pandiraja-pj1 {
+.pandiraja-pj1 {
     margin-right: 38rem;
     font-size: 2rem;
     font-weight: 700;
@@ -95,7 +95,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 {
+.frame-20-S87 {
     margin: 0.2rem 0rem 0.3rem 0rem;
     height: calc(100% - 0.5rem);
     display: flex;
@@ -104,7 +104,17 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .home-9oD {
+.home-9oD {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: #b3b3b3;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.works-GN3 {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.1725;
@@ -114,7 +124,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .works-GN3 {
+.about-o75 {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.1725;
@@ -124,14 +134,17 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .about-o75 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.1725;
-    color: #b3b3b3;
-    font-family: Roboto, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
+.frame-20-S87 li:hover a {
+    color: #ffffff;
+    /* Change text color */
+}
+
+/* Style for when the item is active (clicked) */
+.frame-20-S87 li a.active,
+.frame-20-S87 li a.active:hover {
+    color: #ffffff;
+    /* Change text color */
+    /* Add additional styling as needed */
 }
 
 /*  */
@@ -162,7 +175,7 @@ a {
     position: fixed;
     right: -35px;
     /* top: 16%; */
-  top: 20%;
+    top: 20%;
     background-color: #212121;
     padding: 1rem 2rem 1rem 1rem;
     border: solid 0.1rem #212121;
@@ -2479,14 +2492,19 @@ img {
     border: solid 0.1rem #212121;
     border-radius: 2rem;
     flex-shrink: 0;
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
 }
+
 .frame-90-1hZ {
     width: 100%;
     height: 100%;
 }
+
 .mask-group-Bc3 {
     width: 100%;
     background-size: cover;
@@ -2494,6 +2512,7 @@ img {
     background-position: center;
     background-image: url('../../assets/images/png/rectangle-111-wVZ.png');
 }
+
 .auto-group-eyb1-Ljq {
     width: 34.5453rem;
     height: 61.2557rem;
