@@ -135,14 +135,14 @@ a {
 }
 
 .frame-20-S87 li:hover a {
-    color: #ffffff;
+    color: #e0e0e0;
     /* Change text color */
 }
 
 /* Style for when the item is active (clicked) */
 .frame-20-S87 li a.active,
 .frame-20-S87 li a.active:hover {
-    color: #ffffff;
+    color: #e0e0e0;
     /* Change text color */
     /* Add additional styling as needed */
 }
