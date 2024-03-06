@@ -81,6 +81,11 @@ a {
     text-orientation: mixed;
 }
 
+.tab_item_group a:hover {
+        background-color: #e0e0e0; /* Change to desired hover color */
+    
+    }
+    
 .works-E4f {
     width: 100%;
     /* height: 435.1rem; */
