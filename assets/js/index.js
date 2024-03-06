@@ -15,3 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var currentPage = window.location.pathname.split('/').pop(); // Get the current page filename
+    var navLinks = document.querySelectorAll('.frame-20-S87 li a');
+
+    navLinks.forEach(function(link) {
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('active'); // Add 'active' class to the link corresponding to the current page
+        }
+    });
+});

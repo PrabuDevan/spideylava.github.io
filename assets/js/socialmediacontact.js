@@ -28,31 +28,31 @@ function openWhatsAppPopup() {
 
 }
 
-function openInstaPopup() {
+// function openInstaPopup() {
 
-    var phoneNumber = "+919790963560"; 
-    var message = "Hello from my portfolio!"; 
+//     var phoneNumber = "+919790963560"; 
+//     var message = "Hello from my portfolio!"; 
     
-    var whatsappUrl = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+//     var whatsappUrl = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
 
-    var screenWidth = window.screen.width;
-    var screenHeight = window.screen.height;
+//     var screenWidth = window.screen.width;
+//     var screenHeight = window.screen.height;
 
-    var popupWidth = 1300;
-    var popupHeight = 700;
+//     var popupWidth = 1300;
+//     var popupHeight = 700;
 
-    var leftPosition = (screenWidth - popupWidth) / 2;
-    var topPosition = (screenHeight - popupHeight) / 2;
+//     var leftPosition = (screenWidth - popupWidth) / 2;
+//     var topPosition = (screenHeight - popupHeight) / 2;
 
-    var popupWindow = window.open(whatsappUrl, "WhatsappPopup", "width=" + popupWidth + ",height=" + popupHeight + ",left=" + leftPosition + ",top=" + topPosition);
+//     var popupWindow = window.open(whatsappUrl, "WhatsappPopup", "width=" + popupWidth + ",height=" + popupHeight + ",left=" + leftPosition + ",top=" + topPosition);
 
-    if (popupWindow) {
-        popupWindow.focus();
-    } else {
-        alert("Popup window blocked! Please allow popups for this site.");
-    }
+//     if (popupWindow) {
+//         popupWindow.focus();
+//     } else {
+//         alert("Popup window blocked! Please allow popups for this site.");
+//     }
     
-}
+// }
 
 function openLinkedInPopup() {
 
@@ -80,7 +80,7 @@ function openLinkedInPopup() {
 
 function openInstapPopup() {
 
-    var instaUrl = "http://linkedin.com/in/pandiraja-thennavan-284882212";
+    var instaUrl = "https://www.instagram.com/_pandiraj_/?utm_source=qr&r=nametag";
 
     var screenWidth = window.screen.width;
     var screenHeight = window.screen.height;
