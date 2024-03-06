@@ -320,18 +320,6 @@ a {
 
 .works-fao .frame-97-vf9 .frame-95-eFh .ui-animations-4Tq {
   text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Domine, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-  padding: 80px 3% 0;
-}
-
-.works-fao .frame-97-vf9 .frame-95-eFh .ai-security-camera-app-nud {
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
@@ -339,6 +327,20 @@ a {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  padding: 80px 3% 0;
+}
+
+.works-fao .frame-97-vf9 .frame-95-eFh .ai-security-camera-app-nud {
+  text-align: center;
+  
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Domine, 'Source Sans Pro';
 }
 
 .works-fao .frame-97-vf9 .frame-87-XMR {
