@@ -44,13 +44,13 @@ a {
     background-color: #111111;
 }
 
-.works-E4f .auto-group-fhhr-FEf {
+.auto-group-fhhr-FEf {
     margin: 0rem 0.05rem 4rem 0rem;
     width: calc(100% - 0.05rem);
     height: 401.1rem;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD {
+.frame-63-VoD {
     box-sizing: border-box;
     padding: 4rem 14.525rem 0rem 14.525rem;
     width: 100%;
@@ -60,7 +60,7 @@ a {
     flex-direction: column;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP {
+.frame-63-VoD .navi-yiP {
     margin: 0rem 21.825rem 7rem 21.825rem;
     /* width: calc(100% - 43.65rem); */
     height: 5.5rem;
@@ -71,7 +71,7 @@ a {
     z-index: 9999;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 {
+.frame-22-6Y7 {
     box-sizing: border-box;
     padding: 1.6rem 2rem 1.5rem 3rem;
     width: 100%;
@@ -84,7 +84,7 @@ a {
     border-radius: 2rem;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .pandiraja-pj1 {
+.pandiraja-pj1 {
     margin-right: 38rem;
     font-size: 2rem;
     font-weight: 700;
@@ -95,7 +95,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 {
+.frame-20-S87 {
     margin: 0.2rem 0rem 0.3rem 0rem;
     height: calc(100% - 0.5rem);
     display: flex;
@@ -104,7 +104,27 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .home-9oD {
+.home-9oD {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: #b3b3b3;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.works-GN3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: #b3b3b3;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.about-o75 {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.1725;
@@ -114,27 +134,18 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .works-GN3 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.1725;
-    color: #b3b3b3;
-    font-family: Roboto, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
+.frame-20-S87 li:hover a {
+    color: #ffffff; /* Change text color */
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .navi-yiP .frame-22-6Y7 .frame-20-S87 .about-o75 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.1725;
-    color: #b3b3b3;
-    font-family: Roboto, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
+/* Style for when the item is active (clicked) */
+.frame-20-S87 li a.active,
+.frame-20-S87 li a.active:hover {
+    color: #ffffff; /* Change text color */
+    /* Add additional styling as needed */
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq {
+.frame-25-sMq {
     margin-bottom: 7rem;
     /* width: 100%; */
     height: 62.5rem;
@@ -144,7 +155,7 @@ a {
     padding: 80px 3% 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 {
+.frame-30-pH5 {
     box-sizing: border-box;
     padding: 5rem 4.2rem;
     width: 100%;
@@ -154,7 +165,7 @@ a {
     border-radius: 2rem;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB {
+.frame-23-xeB {
     margin: 9.05rem 18.7rem 21.25rem 0rem;
     height: calc(100% - 30.3rem);
     display: flex;
@@ -162,7 +173,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB .hey-there-FtB {
+.hey-there-FtB {
     font-size: 4rem;
     font-weight: 400;
     line-height: 1.5;
@@ -172,7 +183,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB .im-rajan-ui-motiondesigner-PjV {
+.im-rajan-ui-motiondesigner-PjV {
     max-width: 40.3rem;
     font-size: 4.8rem;
     font-weight: 700;
@@ -182,7 +193,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB .im-rajan-ui-motiondesigner-PjV .im-rajan-ui-motiondesigner-PjV-sub-0 {
+.im-rajan-ui-motiondesigner-PjV-sub-0 {
     font-size: 10.8rem;
     font-weight: 700;
     line-height: 1.14;
@@ -190,7 +201,7 @@ a {
     font-family: Domine, 'Source Sans Pro';
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB .im-rajan-ui-motiondesigner-PjV .im-rajan-ui-motiondesigner-PjV-sub-1 {
+.im-rajan-ui-motiondesigner-PjV-sub-1 {
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 1.14;
@@ -198,7 +209,7 @@ a {
     font-family: Domine, 'Source Sans Pro';
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .frame-23-xeB .im-rajan-ui-motiondesigner-PjV .im-rajan-ui-motiondesigner-PjV-sub-2 {
+.im-rajan-ui-motiondesigner-PjV-sub-2 {
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 1.14;
@@ -206,7 +217,7 @@ a {
     font-family: Domine, 'Source Sans Pro';
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .group-13-sgb {
+.group-13-sgb {
     width: 47.55rem;
     height: 100%;
     position: relative;
@@ -214,7 +225,7 @@ a {
     flex-shrink: 0;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .group-13-sgb .img20220716205556-2-DkT {
+.img20220716205556-2-DkT {
     width: 42.4rem;
     height: 48.4rem;
     position: absolute;
@@ -225,7 +236,7 @@ a {
     border-radius: 2rem;
 }
 
-.works-E4f .auto-group-fhhr-FEf .frame-63-VoD .frame-25-sMq .frame-30-pH5 .group-13-sgb .auto-group-tbio-8Md {
+.auto-group-tbio-8Md {
     width: 42.4rem;
     height: 48.4rem;
     position: absolute;
