@@ -1061,6 +1061,7 @@ a {
     margin: 1.6rem 0rem 1.7rem 0rem;
     width: 12.5rem;
     height: calc(100% - 3.3rem);
+    cursor: pointer;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
