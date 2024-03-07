@@ -770,6 +770,7 @@ a {
 .frame-61-hh1 {
   margin-right: 1.1rem;
   height: 100%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -838,6 +839,7 @@ a {
 .linkedin-fill-CQo {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
@@ -846,6 +848,7 @@ a {
 .whatsapp-fill-8ZM {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
@@ -854,6 +857,7 @@ a {
 .instagram-fill-fpB {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
