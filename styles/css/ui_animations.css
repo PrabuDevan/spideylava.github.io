@@ -1291,6 +1291,7 @@ a {
 .works-fao .frame-97-vf9 .frame-55-Nco .frame-60-FRh .frame-59-oi7 .frame-61-HtB {
   margin-right: 1.1rem;
   height: 100%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1367,6 +1368,7 @@ a {
 .works-fao .frame-97-vf9 .frame-55-Nco .frame-60-FRh .frame-54-PiF .linkedin-fill-8vj {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
@@ -1376,6 +1378,7 @@ a {
 .works-fao .frame-97-vf9 .frame-55-Nco .frame-60-FRh .frame-54-PiF .whatsapp-fill-sdR {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
@@ -1385,6 +1388,7 @@ a {
 .works-fao .frame-97-vf9 .frame-55-Nco .frame-60-FRh .frame-54-PiF .instagram-fill-c5D {
   width: 2.4rem;
   height: 2.4rem;
+  cursor: pointer;
   object-fit: contain;
   vertical-align: top;
   border-radius: 0.3rem;
